@@ -40,3 +40,11 @@ Note: All secret keys store in .env file
 set enivornment variables in Lambda.
 
 Add Lamnda triggers based on data land on Bronze S3 bucket.
+
+Create Glue Job from bronze to silver statistics
+Glue Job Parametres:
+1. --bronze_database  : youtube_data_pipeline_bronze
+2. --bronze_table     : raw_statistics
+3. --silver_bucket    : youtube-data-pipeline-silver-dev-76
+4. --silver_database  : youtube_data_pipeline_silver
+5. --silver_table     : clean_statistics
