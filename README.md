@@ -48,3 +48,15 @@ Glue Job Parametres:
 3. --silver_bucket    : youtube-data-pipeline-silver-dev-76
 4. --silver_database  : youtube_data_pipeline_silver
 5. --silver_table     : clean_statistics
+
+Silver to gold
+Glue Job Parametres:
+1. --silver_database: youtube_data_pipeline_silver
+2. --gold_bucket    : youtube-data-pipeline-gold-dev-76
+3. --gold_database  : youtube_data_pipeline_gold
+
+Aggregate Silver data into Gold tables based on business requiremment.
+Gold layer tables:
+1. Category Analytics (trend over time)
+2. Channel Analytics
+3. Trending Analytics (daily summaries per region)
