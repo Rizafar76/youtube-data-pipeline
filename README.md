@@ -60,3 +60,5 @@ Gold layer tables:
 1. Category Analytics (trend over time)
 2. Channel Analytics
 3. Trending Analytics (daily summaries per region)
+
+Orchestrate entire flow using AWS Step Functions.
